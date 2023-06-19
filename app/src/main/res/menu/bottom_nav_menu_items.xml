@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_nav_home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home"/>
+    <item
+        android:id="@+id/bottom_nav_service"
+        android:title="Service"
+        android:icon="@drawable/baseline_cleaning_services_24"/>
+    <item
+        android:id="@+id/bottom_nav_News"
+        android:title="News"
+        android:icon="@drawable/baseline_newspaper"/>
+    <item
+        android:id="@+id/bottom_nav_About"
+        android:title="About"
+        android:icon="@drawable/baseline_info"/>
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/baseline_profile"/>
+
+
+</menu>

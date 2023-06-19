@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServicesFragment"
+    android:layout_marginBottom="70dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Services"
+                android:textSize="20sp"
+                android:textColor="#0B1E33"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_background"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/services_background"
+            android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="POPULAR SERVICES"
+                android:textSize="16sp"
+                android:textColor="#0B1E33"
+                android:textStyle="bold"
+                android:padding="4dp"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/popular_sevice1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electric Services"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/popular_services2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Furniture Assembly"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Office Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/categories_background"
+                    android:padding="6dp"
+                    android:text="Toilet Trouble"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plumbing"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/services_background"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HOME MAINTAINCE"
+                    android:textSize="16sp"
+                    android:textColor="#0B1E33"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electric Services"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Furniture Assembly"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Office Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/categories_background"
+                    android:padding="6dp"
+                    android:text="Toilet Trouble"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plumbing"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/services_background"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HOME IMPROVEMENTS"
+                    android:textSize="16sp"
+                    android:textColor="#0B1E33"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electric Services"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Furniture Assembly"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Office Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/categories_background"
+                    android:padding="6dp"
+                    android:text="Toilet Trouble"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plumbing"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/services_background"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="APPLIANCES AND GADGETS"
+                    android:textSize="16sp"
+                    android:textColor="#0B1E33"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electric Services"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Furniture Assembly"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Office Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/categories_background"
+                    android:padding="6dp"
+                    android:text="Toilet Trouble"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plumbing"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/services_background"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="EVENTS"
+                    android:textSize="16sp"
+                    android:textColor="#0B1E33"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electric Services"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Furniture Assembly"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Office Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/categories_background"
+                    android:padding="6dp"
+                    android:text="Toilet Trouble"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plumbing"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/services_background"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LUXURY"
+                    android:textSize="16sp"
+                    android:textColor="#0B1E33"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electric Services"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Furniture Assembly"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Office Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/categories_background"
+                    android:padding="6dp"
+                    android:text="Toilet Trouble"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plumbing"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/services_background"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PERSONAL"
+                    android:textSize="16sp"
+                    android:textColor="#0B1E33"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electric Services"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Furniture Assembly"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Office Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/categories_background"
+                    android:padding="6dp"
+                    android:text="Toilet Trouble"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plumbing"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/services_background"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HEALTH AND WELLNESS"
+                    android:textSize="16sp"
+                    android:textColor="#0B1E33"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electric Services"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Furniture Assembly"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Office Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/categories_background"
+                    android:padding="6dp"
+                    android:text="Toilet Trouble"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plumbing"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/services_background"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OTHERS"
+                    android:textSize="16sp"
+                    android:textColor="#0B1E33"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electric Services"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Furniture Assembly"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Office Cleaning"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/categories_background"
+                    android:padding="6dp"
+                    android:text="Toilet Trouble"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plumbing"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:padding="6dp"
+                    android:background="@drawable/categories_background"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
